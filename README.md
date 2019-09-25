@@ -19,7 +19,8 @@ These are the questions that I want to investigate
 
 
 How many samples are in this dataset?
-   		We can use numpy.shape to show it.
+   		import numpy as np
+		data.shape
 
 
 
@@ -42,6 +43,10 @@ label distribution in this dataset?
 
 
 Correlation between various diseases and gender and age?
+		import numpy as np
+		import pandas as pd 
+		import seaborn as sns
+		import matplotlib.pyplot as plt
 		sns.violinplot(x="I-AVB", y="age", hue="sex", data=alln, split=True,
 							inner="quart", palette={"MALE": "b", "FEMALE": "y"}) 
 		sns.despine(left=True)
@@ -50,7 +55,10 @@ Correlation between various diseases and gender and age?
 
 
 Correlation between various diseases and diseases?
-
+		import numpy as np
+		import pandas as pd 
+		import seaborn as sns
+		import matplotlib.pyplot as plt
 		corr = cgdata.corr(method='spearman')  
 		cgdata1 = cgdata.drop(columns=['age'])
 		cov = cgdata1.cov() 
