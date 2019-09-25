@@ -19,7 +19,8 @@ These are the questions that I want to investigate
 
 
 How many samples are in this dataset?
-   		import numpy as np
+   		#-*- coding: UTF-8 -*-
+		import numpy as np
 		data.shape
 
 
@@ -43,6 +44,7 @@ label distribution in this dataset?
 
 
 Correlation between various diseases and gender and age?
+		#-*- coding: UTF-8 -*-
 		import numpy as np
 		import pandas as pd 
 		import seaborn as sns
@@ -55,6 +57,7 @@ Correlation between various diseases and gender and age?
 
 
 Correlation between various diseases and diseases?
+		#-*- coding: UTF-8 -*-
 		import numpy as np
 		import pandas as pd 
 		import seaborn as sns
