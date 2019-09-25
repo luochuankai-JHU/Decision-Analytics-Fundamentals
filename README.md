@@ -19,7 +19,7 @@ These are the questions that I want to investigate
 
 
 How many samples are in this dataset?
-   	We can use numpy.shape to show it.
+   		We can use numpy.shape to show it.
 
 
 
