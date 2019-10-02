@@ -5,7 +5,7 @@ This is a ECG dataset gain from 3 hospital
 # How many samples are in this dataset?
 		data.shape
 # label distribution in this dataset (illness and age)?
-we can use histogram to discribe it
+
 
 		#-*- coding: UTF-8 -*-
 
@@ -21,17 +21,18 @@ we can use histogram to discribe it
 		plt.ylabel("frequency")
 		plt.title("Age distribution map")
 		plt.show()
-		
+we can use histogram to discribe it		
 		
 # Correlation between various diseases and gender and age?	
-we can use violine plot to discribe it
+
 		sns.violinplot(x="I-AVB", y="age", hue="sex", data=alln, split=True,
 							inner="quart", palette={"MALE": "b", "FEMALE": "y"}) 
 		sns.despine(left=True)
 		plt.show()
-
+we can use violine plot to discribe it
 # Correlation between various diseases and diseases?
-we can draw a form
+
 		corr = cgdata.corr(method='spearman')  
 		cgdata1 = cgdata.drop(columns=['age'])
 		cov = cgdata1.cov() 
+we can draw a form
