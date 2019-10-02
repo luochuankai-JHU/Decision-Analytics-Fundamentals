@@ -1,12 +1,12 @@
-# This is a ECG data gain from 3 hospital
-
-
-These are the questions that I want to investigate
+# Discribe the dataset
+This is a ECG dataset gain from 3 hospital
 
 
 # How many samples are in this dataset?
 		data.shape
-# label distribution in this dataset?
+# label distribution in this dataset (illness and age)?
+we can use histogram to discribe it
+
 		#-*- coding: UTF-8 -*-
 
 		import numpy as np
@@ -24,13 +24,14 @@ These are the questions that I want to investigate
 		
 		
 # Correlation between various diseases and gender and age?	
+we can use violine plot to discribe it
 		sns.violinplot(x="I-AVB", y="age", hue="sex", data=alln, split=True,
 							inner="quart", palette={"MALE": "b", "FEMALE": "y"}) 
 		sns.despine(left=True)
 		plt.show()
 
 # Correlation between various diseases and diseases?
-
+we can draw a form
 		corr = cgdata.corr(method='spearman')  
 		cgdata1 = cgdata.drop(columns=['age'])
 		cov = cgdata1.cov() 
