@@ -1,5 +1,7 @@
 # Discribe the dataset
 This is a ECG dataset gain from 3 hospital
+The data contain with the raw data of electrocardiogram and the label like sex, age, the illness that patient have.
+Because of privacy and security issues, we can not put the data to public.
 # data visualizations
 https://github.com/luochuankai-JHU/Decision-Analytics-Fundamentals/blob/master/Chuankai_Luo.pdf
 please see the link above
