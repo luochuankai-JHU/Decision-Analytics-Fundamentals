@@ -1,7 +1,8 @@
 # Discribe the dataset
 This is a ECG dataset gain from 3 hospital
 # data visualizations
-
+https://github.com/luochuankai-JHU/Decision-Analytics-Fundamentals/blob/master/Chuankai_Luo.pdf
+please see the link above
 # How many samples are in this dataset?
 		data.shape
 		
