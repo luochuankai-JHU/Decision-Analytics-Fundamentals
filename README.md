@@ -1,9 +1,10 @@
 # Discribe the dataset
 This is a ECG dataset gain from 3 hospital
-
+# data visualizations
 
 # How many samples are in this dataset?
 		data.shape
+		
 # label distribution in this dataset (illness and age)?
 
 
