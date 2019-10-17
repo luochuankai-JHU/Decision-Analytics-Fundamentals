@@ -7,9 +7,12 @@ Cardiovascular disease is the leading cause of death around the world. High-qual
 # slides
 https://github.com/luochuankai-JHU/Decision-Analytics-Fundamentals/blob/master/Chuankai_Luo.pdf
 please see the link above
-# ECG report from hospital?
+# brief introduce about ECG data?
+this is the shape of one heart beat in ECG report
+![image](https://github.com/luochuankai-JHU/Decision-Analytics-Fundamentals/blob/master/image/heart%20beat.png)
+and when we go to hospital, we can get a report like this from docter
 ![image](https://github.com/luochuankai-JHU/Decision-Analytics-Fundamentals/blob/master/image/report.jpg)
-
+from the shape of your heart beat shown in ECG report, we can diagnose what disease you have.
 # How many samples are in this dataset?
 		15,357
 		
