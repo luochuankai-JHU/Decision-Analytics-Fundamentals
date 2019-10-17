@@ -7,8 +7,11 @@ Cardiovascular disease is the leading cause of death around the world. High-qual
 # slides
 https://github.com/luochuankai-JHU/Decision-Analytics-Fundamentals/blob/master/Chuankai_Luo.pdf
 please see the link above
+# ECG report from hospital?
+![image](https://github.com/luochuankai-JHU/Decision-Analytics-Fundamentals/blob/master/image/report.jpg)
+
 # How many samples are in this dataset?
-		data.shape
+		15,357
 		
 # label distribution in this dataset (illness and age)?
 
@@ -46,4 +49,4 @@ we can use violine plot to discribe it
 		cgdata1 = cgdata.drop(columns=['age'])
 		cov = cgdata1.cov() 
 we can draw a form
-or ![image](https://github.com/luochuankai-JHU/Decision-Analytics-Fundamentals/blob/master/image/corr.png)
+or statistics simultaneously appear![image](https://github.com/luochuankai-JHU/Decision-Analytics-Fundamentals/blob/master/image/corr.png)
