@@ -4,7 +4,7 @@ The data contain with the raw data of electrocardiogram and the label like sex, 
 Because of privacy and security issues, we can not put the data to public.
 # Why it is important?
 Cardiovascular disease is the leading cause of death around the world. High-quality ECG data promotes the ability of computerized interpretation of electrocardiogram. We build this dataset for the use of China ECG AI Contest (CEAC) 2019, more information can see from their website http://mdi.ids.tsinghua.edu.cn/#/
-# data visualizations
+# slides
 https://github.com/luochuankai-JHU/Decision-Analytics-Fundamentals/blob/master/Chuankai_Luo.pdf
 please see the link above
 # How many samples are in this dataset?
@@ -27,7 +27,8 @@ please see the link above
 		plt.ylabel("frequency")
 		plt.title("Age distribution map")
 		plt.show()
-we can use histogram to discribe it		
+we can use histogram to discribe it	
+![image](https://github.com/luochuankai-JHU/Decision-Analytics-Fundamentals/blob/master/image/agedistribution.jpg)
 		
 # Correlation between various diseases and gender and age?	
 
@@ -36,9 +37,13 @@ we can use histogram to discribe it
 		sns.despine(left=True)
 		plt.show()
 we can use violine plot to discribe it
+![image](https://github.com/luochuankai-JHU/Decision-Analytics-Fundamentals/blob/master/image/disease1.jpg)
+![image](https://github.com/luochuankai-JHU/Decision-Analytics-Fundamentals/blob/master/image/disease2.jpg)
+![image](https://github.com/luochuankai-JHU/Decision-Analytics-Fundamentals/blob/master/image/disease3.jpg)
 # Correlation between various diseases and diseases?
 
 		corr = cgdata.corr(method='spearman')  
 		cgdata1 = cgdata.drop(columns=['age'])
 		cov = cgdata1.cov() 
 we can draw a form
+or ![image](https://github.com/luochuankai-JHU/Decision-Analytics-Fundamentals/blob/master/image/corr.png)
