@@ -3,7 +3,7 @@ This is a ECG dataset gain from 3 hospital
 The data contain with the raw data of electrocardiogram and the label like sex, age, the illness that patient have.
 Because of privacy and security issues, we can not put the data to public.
 # Why it is important?
-Cardiovascular disease is the leading cause of death around the world. High-quality ECG data promotes the ability of computerized interpretation of electrocardiogram.
+Cardiovascular disease is the leading cause of death around the world. High-quality ECG data promotes the ability of computerized interpretation of electrocardiogram. We build this dataset for the use of China ECG AI Contest (CEAC) 2019, more information can see from their website http://mdi.ids.tsinghua.edu.cn/#/
 # data visualizations
 https://github.com/luochuankai-JHU/Decision-Analytics-Fundamentals/blob/master/Chuankai_Luo.pdf
 please see the link above
