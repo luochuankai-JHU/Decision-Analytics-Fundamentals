@@ -50,3 +50,8 @@ we can use violine plot to discribe it
 		cov = cgdata1.cov() 
 we can draw a form
 or statistics simultaneously appear![image](https://github.com/luochuankai-JHU/Decision-Analytics-Fundamentals/blob/master/image/corr.png)
+# algorithm that suit for this dataset to make classification
+Multi-Feature Multi-Label algorithm
+（MFML）
+which have a F1 score as 0.86
+![image](https://github.com/luochuankai-JHU/Decision-Analytics-Fundamentals/blob/master/image/algr.png)
